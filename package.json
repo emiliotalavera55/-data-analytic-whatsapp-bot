@@ -1,0 +1,22 @@
+{
+  "name": "data-analytic-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot con IA — Twilio + Claude + Notion | Roofing Monkeys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@notionhq/client": "^2.2.15",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
